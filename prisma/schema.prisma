@@ -32,6 +32,7 @@ model Session {
   sessionToken String   @unique
   userId       String
   expires      DateTime
+  isAdmin      Boolean  @default(false)
   user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
