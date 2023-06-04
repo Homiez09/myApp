@@ -90,7 +90,7 @@ const NavbarComp: NextPage<{}> = () => {
                 </Dropdown.Item>
 
                 <Dropdown.Item key="short-link" withDivider color="primary">
-                  <div onClick={() => push("/user/short-link")}>xxx</div>
+                  <div onClick={() => push("/check-in")}>Check In</div>
                 </Dropdown.Item>
 
                 <Dropdown.Item key="logout" withDivider color="error">
